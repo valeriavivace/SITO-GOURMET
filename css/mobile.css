@@ -2,10 +2,11 @@
   .navbar-header{
     display: flex;
     align-items: center;
-    padding: 30px;
+    justify-content: center;
   }
-  .navbar-brand{
-    font-size: 5rem;
+  .navbar-default{
+    padding:30px;
+
   }
   .navbar-nav>li>a,
   .navbar-default .navbar-nav .open .dropdown-menu>li>a{
@@ -30,4 +31,7 @@
     border-top: 10px dashed;
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
-}
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+    color: black;
+  }
