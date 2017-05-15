@@ -1,0 +1,33 @@
+@media (max-width: 900px){
+  .navbar-header{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+  }
+  .navbar-brand{
+    font-size: 5rem;
+  }
+  .navbar-nav>li>a,
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+    font-size: 4rem;
+    margin: 50px 0 0 20px;
+  }
+  .navbar-toggle{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+  }
+  .navbar-default .navbar-toggle .icon-bar{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+  }
+  .caret {
+    border-top: 10px dashed;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
