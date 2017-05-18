@@ -1,34 +1,43 @@
 @media (max-width: 768px){
-  .navbar-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .navbar-nav{
-    display: inline-block;
+  header{
+    height:auto;
   }
   .navbar-default{
-    padding:30px;
+    padding:10px;
   }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form{
+    border: transparent;
+  }
+  .navbar-brand {
+   height: 50px;
+   float: left;
+  }
+
   .navbar-nav>li>a,
   .navbar-default .navbar-nav .open .dropdown-menu>li>a{
-    font-size: 4rem;
+    font-size: 2rem;
     line-height: 50px;
     padding:20px;
   }
-  .navbar-toggle{
-    width: 90px;
-    height: 90px;
+
+  .dropdown-menu>li>a{
+    background-color:#e7e7e7;
+  }
+  .navbar-default .navbar-toggle{
     display: flex;
+    width: 50px;
+    height: 50px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: black;
+    border-color:	#006400;
+    border-width: 2px;
   }
   .navbar-default .navbar-toggle .icon-bar{
     width: 30px;
     height: 5px;
-    background-color: white;
+    background-color:#F7F6AF;
   }
   .caret {
     border-top: 10px dashed;
@@ -48,5 +57,14 @@
       display: inline-flex;
       justify-content: space-between;
       text-align: center;
+    }
+    header{
+      height: 700px;
+    }
+    .navbar-default .navbar-toggle{
+      display: none;
+    }
+    .navbar-header{
+      float: left;
     }
   }
