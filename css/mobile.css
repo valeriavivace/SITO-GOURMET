@@ -31,13 +31,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-color:	#006400;
+    border-color:	#e7e7e7;
     border-width: 2px;
   }
   .navbar-default .navbar-toggle .icon-bar{
     width: 30px;
     height: 5px;
-    background-color:#F7F6AF;
+    background-color:#e7e7e7;
   }
   .caret {
     border-top: 10px dashed;
